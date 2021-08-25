@@ -1,0 +1,25 @@
+Những thành phần thường gặp trên giao diện websize 
+1. Header 
+2. Navigation (điều hướng)
+3. Breadcrumb(cái chỗ chỉ cho bt mk ở đâu )
+4. sidebar 
+5. sider
+6. content
+7. footer
+
+
+
+//Phân tích web
+1. Phân tích
+    1.Header
+    2.Slider
+    3. content
+        1. about
+        2. tour
+        3. contact
+        4. image
+        5. footer
+    4. footer
+2. xây dụng base
+3. xây dụng từng phần theo phân tích
+4. hoàn thành
