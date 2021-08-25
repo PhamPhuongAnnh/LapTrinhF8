@@ -18,17 +18,12 @@
  html{
      font-family: Arial, Helvetica, sans-serif;
  }
-#main {
-
-}
 
 #header {
     height: 46px;
     background-color: #000;
 }
-#nav{
 
-}
 #nav li{
     display: inline-block;
     position: relative;
@@ -48,10 +43,7 @@
     top: 100%;
     left: 0;
 }
-#nav  .subnav:hover{
 
-
-}
 #nav  .subnav li{
     display:block;
 }
