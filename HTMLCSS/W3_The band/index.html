@@ -5,20 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The band</title>
+    <link rel="stylesheet" href="assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="assets/css/styte.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSME3Y7PPcv5hnJvjRjNpJcbGKKoT_OhB8axNjc5BVMFwX-twy1chLxYuWptZmp-yQb-YI&usqp=CAU"
+        type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="assets/css/reponsive.css">
 </head>
 
 <body>
     <div id="main">
         <div id="header">
+            <!-- nav -->
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li class="last-item">
-                    <a href="#">More</a>
+                    <a href="#">More
+                        <i class="fas fa-sort-down" style="font-size: 24px;"></i>
+                    </a>
                     <ul class="subnav">
                         <li><a href="#">Merchandise</a></li>
                         <li><a href="#">Extras</a></li>
@@ -26,21 +36,291 @@
                     </ul>
                 </li>
             </ul>
+            <!-- end nav -->
+
+            <!-- search -->
+            <div class="search-btn">
+                <i class="search-item fas fa-search"></i>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu">
+                <i class="menu-icon fas fa-bars"></i>
+            </div>
+            <!-- end search -->
         </div>
         <!-- end header -->
         <div id="slider">
-
+            <div class="text-content">
+                <h1 class="text-heading">
+                    Chicago
+                </h1>
+                <p>Thank you, Chicago - A night we won't forget.</p>
+            </div>
         </div>
         <!-- end sider -->
         <div id="content">
+            <!-- about section -->
+            <div class="content-section" id="band">
+                <h1 class="section-heading">
+                    THE BASH
+                </h1>
+                <p class="section-sub-heading">
+                    We love music
+                </p>
+                <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <div class="member-list m-5">
+                    <div class="member-item">
+                        <p >Name</p>
+                        <img src="assets/img/bandmember.jpg" alt="thanh vien nhom  ">
+                    </div>
+                    <div class="member-item">
+                        <p class="mt-3">Name</p>
+                        <img src="assets/img/bandmember.jpg" alt="thanh vien nhom  ">
+                    </div>
+                    <div class="member-item">
+                        <p class="mt-3"> Name</p>
+                        <img src="assets/img/bandmember.jpg" alt="thanh vien nhom  ">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- tour section -->
+            <div class="tour-section" id="tour">
+                <div class="content-section">
+                    <h1 class="section-heading text-while">
+                        TOUR DATES
+                    </h1>
+                    <p class="section-sub-heading text-while">
+                        Remember to book your tickets!
+                    </p>
+                    <!-- ticlets -->
+                    <ul class="tickets-list">
+                        <li>
+                            September <span class="sold-out">Sold out</span>
+                        </li>
+                        <li> October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantily">3</span></li>
+                    </ul>
+                    <!-- place -->
+                    <div class="place-list">
+                        <div class="place-item">
+                            <div class="place-img">
+                                <img src="assets/img/newyork (1).jpg" alt="">
+                            </div>
+                            <div class="place-body">
+                                <h3 class="place-heading">
+                                    New York
+                                </h3>
+                                <p class="place-time">
+                                    Fri 27 Nov 2016
+                                </p>
+                                <p class="place-dsc">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <butto href="#" class="js-buy-ticket place-buy-btn">
+                                    Buy Tickets
+                                </butto>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <div class="place-img">
+                                <img src="assets/img/paris.jpg" alt="">
+                            </div>
+                            <div class="place-body">
+                                <h3 class="place-heading">
+                                    New York
+                                </h3>
+                                <p class="place-time">
+                                    Fri 27 Nov 2016
+                                </p>
+                                <p class="place-dsc">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <butto href="#" class="js-buy-ticket place-buy-btn">
+                                    Buy Tickets
+                                </butto>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <div class="place-img">
+                                <img src="assets/img/sanfran.jpg" alt="">
+                            </div>
+                            <div class="place-body">
+                                <h3 class="place-heading">
+                                    New York
+                                </h3>
+                                <p class="place-time">
+                                    Fri 27 Nov 2016
+                                </p>
+                                <p class="place-dsc">
+                                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <butto href="#" class="js-buy-ticket place-buy-btn">
+                                    Buy Tickets
+                                </butto>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
 
+                </div>
+            </div>
+
+            <!-- about section -->
+            <div class="content-section mb-lg-5" id="contact">
+                <h1 class="section-heading">
+                    CONTACT
+                </h1>
+                <p class="section-sub-heading">
+                    Fan? Drop a note!
+                </p>
+                <div class="contact-form">
+                    <div class="row text-contact">
+                        <div class="col-md-6">
+                            <i class="pr-3 fas fa-map-marker-alt"></i> Chicago, US
+                            <br>
+                            <i class="pr-3 fas fa-phone-alt"></i>Phone: <a href="tel: +00 151515"> +00 151515</a>
+                            <br>
+                            <i class="pr-3 fas fa-envelope"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="col-md-6"> <input type="email" required placeholder="Email"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="text" required style="margin: 10px 0px  0px;" placeholder="Mesage">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row btn-submit">
+                                <div class="col-md-3">
+                                    <input type="submit" required class="btn-submit-dark" value="Send">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- map -->
+            <div class="map-section ">
+                <img src="assets/img/map.jpg" alt="">
+            </div>
+            <!-- end map -->
         </div>
         <!-- end content -->
         <div id="footer">
-
+            <div class="icon-footer">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_band.htm#">w3.css</a></p>
         </div>
         <!-- end footer -->
     </div>
+
+    <!-- modal buy ticket -->
+    <div class="modal js-modal">
+        <div class="modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <header class="modal-header"><i style="margin-right: 10px;"
+                    class="modal-headding-icon  fas fa-suitcase"></i> Tickets</header>
+            <div class="modal-body">
+                <label for="tickes-quantily">
+                    <i class="fas fa-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" id="tickes-quantily" class="modal-input" placeholder="How many?">
+                <label for="tickes-email">
+                    <i class="fas fa-user"></i>
+                    Send to
+                </label>
+                <input type="text" id="tickes-email" class="modal-input" placeholder="Enter email">
+                <button id="buy-tickes">PAY<i class="fas fa-check"></i> </button>
+            </div>
+            <div class="modal-footer">
+                <p class="modal-help">More <a href="">help?</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var MobileMenu = document.getElementById('mobile-menu')
+        var headerHeight = header.clientHeight;
+        // đóng mở mobile menu
+        MobileMenu.onclick = function () {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose) {
+                header.style.height = 'auto';
+            }
+            else {
+                header.style.height = null;
+            }
+        }
+        // tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+
+            menuItem.onclick = function () {
+                // nếu có anh chị em liền kề và chứa cái class subnav 
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+
+                if (isParentMenu) {
+                    event.preventDefault(); 
+                }
+                else {
+                    header.style.height = null;
+                }
+            }
+        }
+
+    </script>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket');
+        const modal = document.querySelector('.js-modal');
+        const modalContainer = document.querySelector('.modal-container')
+        const modalclose = document.querySelector('.js-modal-close');
+        // hiển thị modal mua vé (thêm class open vào modal)
+        function showBuyTickets() {
+            modal.classList.add("open");
+        }
+        //hàm ẩn modal mua vé(xóa class modal của modal)
+        function closeBuyTickes() {
+            modal.classList.remove("open");
+        }
+        // lạp qua từng thẻ button và nghe  hành vi click
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+        // nghe hành vi click vào nút btn close
+        modalclose.addEventListener('click', closeBuyTickes)
+
+        modal.addEventListener('click', closeBuyTickes)
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation();
+        })
+    </script>
 </body>
 
 </html>

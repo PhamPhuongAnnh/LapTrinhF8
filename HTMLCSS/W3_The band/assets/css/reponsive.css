@@ -1,0 +1,130 @@
+/* PC */
+@media (max-width: 1024px){
+   
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    #footer .icon-footer i{
+        font-size: 30px;
+        padding-right: 20px;
+    }
+    .contact-form input{
+        padding: 11px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact-form input:last-child{
+        margin: 0;
+    }
+    .place-buy-btn {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        padding: 17px 23px;
+        display: inline-block;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .modal-container{
+        background-color: #fff;
+        position: relative;
+        width: 98%;
+        animation: modalFadeIn ease 0.5s;
+    }
+    .text-contact{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1023px){
+
+}
+
+/* mobile */
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #header .search-item{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    
+    #nav li a{
+        display: block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+        background-color: black;
+    }
+    #nav > li:first-child a{
+        color: white;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: inherit;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #content .member-list .member-item{
+        width: 100%;
+    }
+    #content .member-list img{
+        width: 100%;
+        
+        border-radius: 4px;
+        padding: 15px 0px;
+    }
+    #content .member-list img:last-child{
+        width: 100%;
+        border-radius: 4px;
+        padding-top: 15px;
+    }
+    .place-item{
+        float: left;
+        width: 100%;
+        padding: 10px 8px;
+    }
+    .contact-form input:first-child{
+        padding: 8px;
+        width: 100%;
+        margin: 15px auto;
+    }
+    #content .content-section{
+        margin-bottom: 0px;
+    }
+    
+    header.modal-header{
+        height: 90px;
+        font-size: 30px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #009688;
+    }
+    #slider .text-content h1,
+    #slider .text-content p
+    {
+        display: none;     
+    }
+   
+}
+

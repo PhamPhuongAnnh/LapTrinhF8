@@ -23,3 +23,9 @@ Những thành phần thường gặp trên giao diện websize
 2. xây dụng base
 3. xây dụng từng phần theo phân tích
 4. hoàn thành
+
+reponsive
+<!-- PC: 1024px
+    tablet: >=740px & <1024px
+    mobile: <740px
+ -->
