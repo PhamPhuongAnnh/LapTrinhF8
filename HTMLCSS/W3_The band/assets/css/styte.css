@@ -6,6 +6,10 @@
    
 }
 /* common */
+ul
+{
+    list-style: none;
+}
 .clear{
     clear: both;
 }
@@ -143,6 +147,7 @@
 #slider .text-content p{
     padding-top: 25px;
     font-size: 15px;
+    text-shadow:0 0 1px #000;
 }
 
 

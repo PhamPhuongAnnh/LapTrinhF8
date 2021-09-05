@@ -42,7 +42,7 @@
 }
 
 /* mobile */
-@media (max-width: 740px){
+@media (max-width: 739px){
     #header{
         overflow: hidden;
     }
@@ -124,6 +124,12 @@
     #slider .text-content p
     {
         display: none;     
+    }
+    .modal-container{
+        background-color: #fff;
+        position: relative;
+        width: 98%;
+        animation: modalFadeIn ease 0.5s;
     }
    
 }
