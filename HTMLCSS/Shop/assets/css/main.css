@@ -1,0 +1,173 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1220px
+    }
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+#wrapper {
+    font-size: 1.6rem;
+    width: 1200;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* 1rem là 10 px  1.2rem: 12px*/
+
+#header {
+    background-color: #f53d2d;
+}
+
+.header__navbar-item {
+    line-height: 40px;
+    padding: 0px 7px;
+    position: relative;
+}
+
+li.header__navbar-item:hover .header__subnav,
+li.header__navbar-item:hover .header__subnav__ThongBao {
+    display: block;
+}
+
+.header__navbar-item-border>a {
+    border-right: 2px solid hsla(0, 0%, 100%, .22);
+    padding-right: 10px;
+}
+
+.header__navbar-item a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.header__navbar-item>a:hover {
+    opacity: 0.8;
+}
+
+.header__navbar-item i {
+    padding-right: 5px;
+}
+
+.header__subnav {
+    max-width: 200px;
+    top: 40px;
+    left: -8px;
+}
+
+.header__subnav__ThongBao {
+    min-width: 300px;
+    right: 0px;
+}
+
+.header__subnav,
+.header__subnav__ThongBao {
+    background: #fff;
+    width: fit-content;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 2px 2px 2px rgb(236, 234, 234);
+}
+
+.header__download {
+    padding: 0px 10px 10px 15px;
+}
+
+.header__subnav a .img_buutom {
+    width: 44%;
+    display: inline;
+}
+
+.header__subnav__ThongBao_icon {
+    margin: 14px -47px;
+    display: flex;
+}
+
+.header__subnav__ThongBao img {
+    display: inline-block;
+    margin: auto;
+    width: 30%;
+}
+
+.header__subnav__ThongBao p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.header__sign {
+    background-color: rgb(235, 231, 231);
+}
+
+.header__sign a {
+    line-height: 45px;
+    padding: 0px 33px;
+    color: black;
+}
+
+.header__sign a:hover {
+    color: red;
+}
+
+
+/* end header */
